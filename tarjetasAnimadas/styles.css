@@ -1,0 +1,111 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color1: #fff7a2;
+  --color2: #fe7012;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.cards {
+  display: flex;
+  width: 100%;
+  padding: 50px;
+}
+
+.cards .card {
+  background: var(--color1);
+  color: var(--color2);
+  width: 300px;
+  height: 400px;
+  border-radius: 10px;
+  border: 2px solid #cdbc00;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.3s ease;
+  box-shadow: -3px 0 10px rgba(0, 0, 0, 0.3), -4px 0 10px rgba(0, 0, 0, 0.2), -5px 0 10px rgba(0, 0, 0, 0.1);
+}
+.cards .card a {
+  color: #1dae5e;
+  text-decoration: none;
+  font-weight: bold;
+}
+.cards .card a:hover {
+  color: #88bb22;
+}
+.cards .card a span {
+  padding: 10px 10px;
+}
+.cards .card-header {
+  padding: 15px 25px;
+}
+.cards .card:hover {
+  margin-right: 80px;
+  transform: rotate(3deg) translateY(-15px);
+}
+.cards .card-nro {
+  padding: 5px 0;
+}
+.cards .card-title {
+  font-size: 25px;
+  font-weight: bold;
+}
+.cards .card[class*=element] {
+  margin-left: -100px;
+}
+
+.element-1:hover,
+.element-2:hover {
+  margin-left: -130px;
+}
+
+img {
+  padding: 20px;
+  width: 16em;
+}
+
+.img-container {
+  height: 280px;
+  width: 90%;
+  border-radius: 50%;
+  background: #c2ff9c;
+  box-shadow: -10px 0px 20px #d8db26;
+  padding: 0 5px;
+  margin: 0 auto;
+}
+
+.pokemon,
+.img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 900px) {
+  .cards {
+    padding: 1.6em 1.5em;
+  }
+  .cards .card {
+    width: 45%;
+    height: 20%;
+  }
+  .cards .card-header {
+    font-size: 0.9em;
+  }
+  .cards .card-title {
+    font-size: 1.2em;
+  }
+  img {
+    width: 12em;
+  }
+  .img-container {
+    height: 200px;
+  }
+}/*# sourceMappingURL=styles.css.map */
