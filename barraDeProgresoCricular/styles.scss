@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #4c00ff;
+}
+
+.progressbar-container {
+    width: 200px;
+    height: 200px;
+    margin: 100px auto;
+    svg {
+       position: absolute; 
+    }
+    circle {
+        fill: none;
+        stroke: url(#gradientColor);
+        stroke-width: 20px;
+        stroke-dasharray: 550;
+        stroke-dashoffset: 550;
+    }
+}
+
+.container {
+    &-outer-box {
+        border-radius: 50%;
+        background: #fff;
+        width: 200px;
+        height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &-inner-box {
+        font-size: 24px;
+        width: 160px;
+        height: 160px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
