@@ -7,8 +7,6 @@ body {
   width: 200px;
   height: 200px;
   margin: 100px auto;
-  border-radius: 50%;
-  box-shadow: 2px 2px 15px #383838;
 }
 .progressbar-container svg {
   position: absolute;
@@ -19,13 +17,11 @@ body {
   stroke-width: 20px;
   stroke-dasharray: 550;
   stroke-dashoffset: 550;
-
-  animation: loading 8s linear forwards;
 }
 
 .container-outer-box {
   border-radius: 50%;
-  background: #000;
+  background: #fff;
   width: 200px;
   height: 200px;
   display: flex;
@@ -40,12 +36,4 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #fff;
 }/*# sourceMappingURL=styles.css.map */
-
-@keyframes loading {
-    100% {
-        stroke-dashoffset: 0;
-    }
-
-}
