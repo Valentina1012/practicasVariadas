@@ -10,5 +10,5 @@
 <h2>Interfaz para subir archivos</h2>
 <img src="http://drive.google.com/uc?export=view&id=1q4jq5Il2oZYcD_Hn8xt2fkK5JoDMOVst" alt="UI para archivos" width="300">    
 
-
-
+<h2>Historias de Instagram</h2>
+<img src="http://drive.google.com/uc?export=view&id=1ek7KNFQktFpHZEB0uAg_Y-51kaAfWpm7" alt="Historias de Instagram" width="450">    
