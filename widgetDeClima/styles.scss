@@ -1,0 +1,157 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ :root {
+    --claro: rgba(255, 255, 255, .7);
+    --muyClaro: rgba(255, 255, 255, .5);
+ }
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+}
+
+body {
+    font-family: 'Libre Franklin', sans-serif;
+
+}
+
+.weather-container {
+    width: 450px;
+    background: #333;
+    margin: 100px auto;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50px;
+
+    & .list {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 50px 40px;
+
+        & .day {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 17px;
+        }
+
+        & .day .name {
+            width: 84.5px;
+            text-align: left;
+        }
+
+        & .day .weather {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: space-between;
+            align-items: center;
+            gap: 10px;
+
+            & .status {
+                color: var(--muyClaro);
+            }
+        }
+
+        & .day .temperature {
+            text-align: right;
+            display: flex;
+            gap: 5px;
+            &-low {
+                color: var(--muyClaro);
+            }
+        }
+    }
+
+    & .current {
+        background: rgba(30, 107, 221);
+        background: linear-gradient(45deg,
+                rgb(30, 107, 221)0%,
+                rgb(3, 116, 255) 42%,
+                rgb(3, 191, 255)100%);
+        border-radius: 40px;
+        padding: 40px;
+
+        & .city {
+            font-weight: bold;
+            font-size: 30px;
+            margin-bottom: 10px;
+        }
+
+        & .city,
+        & .day {
+            text-align: center;
+        }
+
+        & .more {
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        & .icon span {
+            color: var(--claro);
+            font-size: 28px;
+        }
+
+        & .item .type {
+            font-size: 15px;
+            color: var(--claro);
+            margin-top: 5px;
+        }
+
+        & .row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            & .icon img {
+                width: 128px;
+            }
+
+            & .temperature {
+                font-size: 80px;
+                font-weight: bold;
+                display: flex;
+                align-items: center;
+            }
+
+            & .temperature-low {
+                font-size: 32px;
+                color: var(--claro);
+            }
+
+            & .status {
+                text-align: center;
+                color: var(--claro);
+            }
+        }
+    }
+
+}
