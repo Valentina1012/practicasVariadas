@@ -14,4 +14,8 @@
 <img src="http://drive.google.com/uc?export=view&id=1ek7KNFQktFpHZEB0uAg_Y-51kaAfWpm7" alt="Historias de Instagram" width="450">    
 
 <h2>Widget de clima</h2>
-<img src="http://drive.google.com/uc?export=view&id=1zJs0anyrTZ4jcVwP5TwSm9abbJhzCPWr" alt="Historias de Instagram" width="250">    
+<img src="http://drive.google.com/uc?export=view&id=1zJs0anyrTZ4jcVwP5TwSm9abbJhzCPWr" alt="Widget de clima" width="250">
+
+<h2>Tarjeta de Twitter</h2>
+<img src="http://drive.google.com/uc?export=view&id=1nVXQYNYxbpS3cmVZdVVjlNdRR3I-lIPQ" alt="Tarjeta de Twitter" width="250"> 
+
