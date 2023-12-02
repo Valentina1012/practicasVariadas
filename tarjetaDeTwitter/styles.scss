@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #25334d;
+}
+
+
+.profile-container {
+    width: 70px;
+    margin: 100px auto;
+
+    & .profile {
+        & .info {
+            position: absolute;
+            width: 340px;
+            min-height: 300px;
+            max-height: 380px;
+            background: #222;
+            border-radius: 20px;
+            color: white;
+            padding: 20px;
+            box-shadow: 0 0 5px rgba(255, 255, 255, .2);
+            display: none;
+            flex-direction: column;
+        }
+
+        & .header {
+            display: flex;
+            justify-content: space-between;
+
+            & img {
+                width: 60px;
+            }
+
+            & button {
+                min-width: 100px;
+                padding: 10px;
+                border-radius: 20px;
+                background: #fff;
+                border: none;
+                cursor: pointer;
+                font-weight: bold;
+                color: #000;
+            }
+
+            & button:hover {
+                background: #80c4ff;
+
+            }
+        }
+
+        & .user-info {
+            padding: 10px 0;
+
+            & .name {
+                font-weight: bold;
+            }
+
+            & .user-name {
+                color: #aaa;
+            }
+        }
+
+        & .description {
+            padding: 10px 0 2px 0;
+            flex: 1;
+
+            & a {
+                color: #008cff;
+                text-decoration: none;
+            }
+
+            a:hover {
+                text-decoration: underline;
+            }
+        }
+
+        & .followers-container {
+            display: flex;
+            gap: 10px;
+            justify-content: space-between;
+            padding: 10px 0;
+
+            & .number {
+                font-weight: bolder;
+                color: #fff;
+            }
+
+            & a {
+                color: #aaa;
+            }
+        }
+
+        & .other {
+            padding: 10px 0;
+
+            & a {
+                color: #777;
+                display: flex;
+
+            }
+
+            & .photos {
+                display: flex;
+                flex-direction: row-reverse;
+                justify-content: start;
+                margin-right: 25px;
+
+                & img {
+                    width: 32px;
+                    height: 32px;
+                    border: solid 4px #222;
+                    margin-right: -15px;
+                }
+            }
+        }
+
+        &:hover .info {
+            display: flex;
+            animation: show 0.3s ease;
+        }
+    }
+
+}
+
+
+img {
+    width: 70px;
+    border-radius: 50%;
+}
+
+
+a {
+    text-decoration: none;
+    color: #fff;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+
+@keyframes show {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
