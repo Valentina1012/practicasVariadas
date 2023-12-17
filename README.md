@@ -19,3 +19,7 @@
 <h2>Tarjeta de Twitter</h2>
 <img src="http://drive.google.com/uc?export=view&id=1nVXQYNYxbpS3cmVZdVVjlNdRR3I-lIPQ" alt="Tarjeta de Twitter" width="250"> 
 
+<h2>Perfil de Pinterest con sus tableros</h2>
+<img src="http://drive.google.com/uc?export=view&id=1IH597utTh5S0Pv5Ow3pwBbUhA7fGnD4a" alt="Tarjeta de Twitter" width="300"> 
+
+
