@@ -88,15 +88,27 @@ body {
 }
 .profile-container .profile .other .photos {
   display: flex;
-  flex-direction: row-reverse;
   justify-content: start;
   margin-right: 25px;
+  width: 60px;
 }
 .profile-container .profile .other .photos img {
   width: 32px;
   height: 32px;
   border: solid 4px #222;
-  margin-right: -15px;
+  position: relative;
+}
+.profile-container .profile .other .photos .img1 {
+  z-index: 6;
+  transform: translateX(0%);
+}
+.profile-container .profile .other .photos .img2 {
+  z-index: 5;
+  transform: translateX(-40%);
+}
+.profile-container .profile .other .photos .img3 {
+  z-index: 4;
+  transform: translateX(-80%);
 }
 .profile-container .profile:hover .info {
   display: flex;

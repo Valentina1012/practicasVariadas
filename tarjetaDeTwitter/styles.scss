@@ -108,16 +108,27 @@ body {
 
             & .photos {
                 display: flex;
-                flex-direction: row-reverse;
                 justify-content: start;
                 margin-right: 25px;
-
+                width: 60px;
                 & img {
                     width: 32px;
                     height: 32px;
                     border: solid 4px #222;
-                    margin-right: -15px;
+                    position: relative;
                 }
+                & .img1 {
+                    z-index: 6;
+                    transform: translateX(0%);
+                } 
+                & .img2 {
+                    z-index: 5;
+                    transform: translateX(-40%);
+                } 
+                & .img3 {
+                    z-index: 4;
+                    transform: translateX(-80%);
+                } 
             }
         }
 
