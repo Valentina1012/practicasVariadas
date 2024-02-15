@@ -17,7 +17,7 @@
 <img src="http://drive.google.com/uc?export=view&id=1zJs0anyrTZ4jcVwP5TwSm9abbJhzCPWr" alt="Widget de clima" width="250">
 
 <h2>Tarjeta de Twitter</h2>
-<img src="http://drive.google.com/uc?export=view&id=1nVXQYNYxbpS3cmVZdVVjlNdRR3I-lIPQ" alt="Tarjeta de Twitter" width="250"> 
+<img src="http://drive.google.com/uc?export=view&id=1SKhKHcaQUT6RBnYD7UFTg6lWVliYCgjg" alt="Tarjeta de Twitter" width="280"> 
 
 <h2>Perfil de Pinterest con sus tableros</h2>
 <img src="http://drive.google.com/uc?export=view&id=1IH597utTh5S0Pv5Ow3pwBbUhA7fGnD4a" alt="Tarjeta de Twitter" width="300"> 
