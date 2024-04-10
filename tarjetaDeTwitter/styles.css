@@ -6,7 +6,7 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background: #25334d;
+  background: #9085b0;
 }
 
 .profile-container {
@@ -44,7 +44,7 @@ body {
   color: #000;
 }
 .profile-container .profile .header button:hover {
-  background: #80c4ff;
+  background: #128CFF;
 }
 .profile-container .profile .user-info {
   padding: 10px 0;
